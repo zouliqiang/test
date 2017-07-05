@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/master.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/commen.css"/>
+    <![endif]-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        var host="http://118.89.45.128:8088//";
+    </script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootlint.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/config.js"></script>
+
+</head>
+<body>
+<!--大容器-->
+<div id="container" class="container-color">
+    <nav class="nav-container  hidden hideNav">
+        <ul class="nav-list">
+            <li class="list-item active"><a href="account.html" class="active scroll" >账户</a></li>
+            <li class="list-item"><a href="cart.html" class="scroll" >购物车</a></li>
+            <li class="list-item"><a href="message.html" class="scroll">消息</a></li>
+            <li class="list-item"><a href="friend.html" class="scroll" >好友</a></li>
+            <li class="list-item"><a href="index.html" class="scroll" >退出</a></li>
+        </ul>
+    </nav>
+    <!--第一块，导航-->
+    <div id="nav" class="nav-color">
+            <!--1.logo-->
+           <div class="logo" onclick="window.location.href='index.html'"></div>
+            <!--2.导航-->
+            <div class="nav-box">
+                <ul>
+                    <li class="active"><a href="index.html">首页</a></li>
+                    <li><a href="feature.html">特色</a></li>
+                    <li><a href="news.html">新鲜事</a></li>
+                    <li><a href="service.html">服务</a></li>
+                    <li><a href="menu.html">菜单</a></li>
+                <!--    <li><a href="blog.html">博客</a></li>-->
+                </ul>
+                <a href="javascript:;" class="go-login">登陆</a>
+                <a href="javascript:;" class="user-btn">
+                    <div class="bar arrow-top-r"></div>
+                    <div class="bar arrow-middle-r"></div>
+                    <div class="bar arrow-bottom-r"></div>
+                </a>
+            </div>
+    </div>
+    <!--第二块美食轮播-->
+    <div id="myCar1" class="carousel slide" style="margin-top: 0;" data-ride="carousel" data-interval="4000">
+       <div class="login-register-box">
+       <div class="login-register-head">
+           <ul>
+               <li class="active"><a href="javascript:;">登陆</a></li>
+               <li><a href="javascript:;">立即注册</a></li>
+           </ul>
+       </div>
+           <div class="login-div">
+               <div class="tc">
+                   <a href="#" target="_blank" class="ico dou">豆</a>
+                   <a href="#" target="_blank" class="ico sina">新浪</a>
+                   <a href="#" target="_blank" class="ico qq">QQ</a>
+               </div>
+               <div class="Prompt">使用以上社交网络帐号登录</div>
+               <form class="in-form">
+                   <input type="text" class="textbox" value="请输入用户名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请输入用户名';}">
+                   <input type="text" class="textbox" value="请输入密码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请输入密码';}">
+                   <div class="rememberme">
+                       <input type="checkbox" id="checkbox_a1" class="chk_1" />
+                       <label for="checkbox_a1"></label>
+                       <p>记住我</p>
+                   </div>
+                   <div class="login-btn">
+                       <button>登陆</button>
+                   </div>
+               </form>
+           </div>
+           <div class="register-div">
+               <h3>加入美食网，成为少数人</h3>
+               <form class="in-form">
+                   <input type="text" class="textbox" value="请填写用户名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请填写用户名';}">
+                   <input type="text" class="textbox" value="请填写密码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请填写密码';}">
+                   <input type="text" class="textbox" value="请再次填写密码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请再次填写密码';}">
+                   <div class="register-btn">
+                       <button>立即注册</button>
+                   </div>
+               </form>
+           </div>
+<div>
+
+</div>
+       </div>
+        <!-- Wrapper for slides -->
+             <div id="slider-img-change" class="carousel-inner carousel-styles" >
+                <!--<div  class="item active">
+                    <img src="img/slider-img-1.jpg" class="img-responsive" >
+                    <div class="carousel-caption" >
+                        <h1>不要忽略你身体的健康；饮食，锻炼，均须有节!</h1>
+                        <p >带着愉悦的心情迎接每一天</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/slider-img-2.jpg"  class="img-responsive" >
+                    <div class="carousel-caption " >
+                        <h1>整天赴宴的人没有一顿饭能吃得香!</h1>
+                        <p>要少吃，要常吃</p>
+                    </div>
+                 </div>
+                <div class="item">
+                    <img src="img/slider-img-3.jpg"  class="img-responsive">
+                    <div class="carousel-caption" >
+                        <h1>口腹之欲，何穷之有。每加节俭，亦是惜福延寿之道!</h1>
+                        <p>你应该为生存而食，不应为食而生存</p>
+                    </div>
+                </div>-->
+            </div>
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <!--<li data-target="#myCar1" data-slide-to="0" class="active"></li>
+            <li data-target="#myCar1" data-slide-to="1"></li>
+            <li data-target="#myCar1" data-slide-to="2"></li>-->
+        </ol>
+    </div>
+    <!--第三块美食相伴-->
+    <div id="delicious-words">
+        <p class="same-style">美食相伴</p>
+        <div class="delicious-words-img-group">
+            <ul>
+               <!-- <li>
+                    <div class="img-meat">
+                        <img src="img/portfolio1.jpg" alt="图片未显示"/>
+                    </div>
+                    <p>
+                        <span>红烧肉</span>
+                    </p>
+                    <div class="shadow-box">$124</div>
+                </li>
+                <li>
+                    <div class="img-meat">
+                        <img src="img/portfolio2.jpg" alt="图片未显示"/>
+                    </div>
+                    <p>红烧肉</p>
+                    <div class="shadow-box">$124</div>
+                </li>
+                <li>
+                    <div class="img-meat">
+                        <img src="img/portfolio3.jpg" alt="图片未显示"/>
+                    </div>
+                    <p>红烧肉</p>
+                    <div class="shadow-box">$124</div>
+                </li>
+                <li>
+                    <div class="img-meat">
+                        <img src="img/portfolio4.jpg" alt="图片未显示"/>
+                    </div>
+                    <p>红烧肉</p>
+                    <div class="shadow-box">$124</div>
+                </li>
+                <li>
+                    <div class="img-meat">
+                        <img src="img/portfolio5.jpg" alt="图片未显示"/>
+                    </div>
+                    <p>红烧肉</p>
+                    <div class="shadow-box">$124</div>
+                </li>
+                <li>
+                    <div class="img-meat">
+                        <img src="img/portfolio6.jpg" alt="图片未显示"/>
+                    </div>
+                    <p>红烧肉</p>
+                    <div class="shadow-box">$124</div>
+                </li>-->
+            </ul>
+        </div>
+    </div>
+    <!--第四块美食物语-->
+    <div id="delicious-says">
+       <p class="same-style">美食物语</p>
+        <!--图片文字部分-->
+       <div class="breakfast-img-write">
+           <aside class="breakfast-img-write-left">
+               <img  alt="图片未显示" class="img-responsive"/>
+           </aside>
+           <div class="breakfast-img-write-right">
+               <h3 ><!--入冬吃它，滋补功效堪比人参--></h3>
+               <p >
+                  <!-- <b>芋头的营养价值：</b>
+                        芋头富含蛋白质、钙、磷、铁、钾、镁、钠、胡萝卜素、烟酸、维生素C、B族维生素、皂角甙等多种成分，营养丰富。<br/>
+                   　　中医认为芋头“吞之开胃，通肠壁”，能入脾、胃经，有益胃宽肠、补益脾肾、散结化痰、调节中气的功用。<br/>
+                   　　芋头的淀粉颗粒小，消化率可达到98%以上。含有丰富的黏液皂素，能够在肠壁胃壁上形成保护膜，润滑肠道，通便。营养丰富，还能够满足大病之后的营养需求。
+                   　　芋头含有一种黏液蛋白，被人体吸收之后，能够产生免疫球蛋白，可以提高机体的抵抗力。-->
+               </p>
+           </div>
+       </div>
+        <!--日期文字部分-->
+       <div class="breakfast-date-write">
+           <ul>
+             <!--  <li>
+                   <span>2017-03-28</span>
+                   <a href="javascript:;">四款厨师上门APP大比拼，为你带来</a>
+               </li>
+               <li>
+                   <span>2017-03-28</span>
+                   <a href="javascript:;">被房东急加百万租金，小餐饮企业</a>
+               </li>
+               <li>
+                   <span>2017-03-28</span>
+                   <a href="javascript:;">这些平民食物竟是补血圣品</a>
+               </li>
+               <li>
+                   <span>2017-03-28</span>
+                   <a href="javascript:;">国民营养好豆奶究竟好在哪里？全面解析达利食品新品豆本豆</a>
+               </li>-->
+           </ul>
+       </div>
+    </div>
+    <!--第五块美食达人-->
+    <div id="delicious-bodies">
+        <p class="same-style">
+            美食达人
+        </p>
+        <div class="bodies-group">
+           <!-- <dl>
+                <dt><img src="img/team1.jpg"  alt="图片未显示"/></dt>
+                <dd>黎姿</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/team2.jpg"  alt="图片未显示"/></dt>
+                <dd>黎姿</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/team3.jpg"  alt="图片未显示"/></dt>
+                <dd>黎姿</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/team4.jpg"  alt="图片未显示"/></dt>
+                <dd>黎姿</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/team2.jpg"  alt="图片未显示"/></dt>
+                <dd>黎姿</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/team3.jpg"  alt="图片未显示"/></dt>
+                <dd>黎姿</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/team4.jpg" alt="图片未显示"/></dt>
+                <dd>黎姿</dd>
+            </dl>-->
+        </div>
+    </div>
+    <!--第六块美食结尾-->
+    <footer id="footer-box">
+        <div id="footer-intro">
+            <!--1、logo-->
+            <div class="footer-logo">
+                <img src="img/logo.png" />
+            </div>
+            <!--2、声明介绍-->
+            <div class="footer-con">
+                <ul>
+                    <li><a href="javascript:;"><h4>关于我们</h4></a></li>
+                    <li><a href="javascript:;">系统介绍</a></li>
+                    <li><a href="javascript:;">平台优势</a></li>
+                    <li><a href="javascript:;">平台公告</a></li>
+                    <li><a href="javascript:;">招贤纳士</a></li>
+                </ul>
+                <ul>
+                    <li><a href="javascript:;"><h4>用户须知</h4></a></li>
+                    <li><a href="javascript:;">免责声明</a></li>
+                    <li><a href="javascript:;">隐私条款</a></li>
+                </ul>
+                <ul>
+                    <li><a href="javascript:;"><h4>联系我们</h4></a></li>
+                    <li><a href="javascript:;">邮箱：meishi@ms.com</a></li>
+                    <li><a href="javascript:;">联系地址：北京市海淀区复兴路61号</a></li>
+                </ul>
+            </div>
+            <!--3、二维码-->
+            <div class="footer-address">
+                <p>
+                    <a href="javascript:;"><img src="img/dsdgzh_03.jpg" /></a>
+                    <a href="javascript:;"><img src="img/dsdapp_03.jpg" /></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-foot">
+            <span>
+                2017 © 版权所有 中国美食生态综合服务系统 | 技术支持 北京达内科技有限公司 | 京ICP备12039582号
+            </span>
+    </div>
+</div>
+
+</body>
+
+</html>

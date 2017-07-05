@@ -1,0 +1,358 @@
+
+    /*整体样式*/
+    #container{
+        width:100%;
+    }
+
+    /*第二块*/
+    #myCar1 .carousel-inner>div.item img{
+        height:500px;
+        width:100%;
+        border-bottom:2px solid #000000;
+    }
+    #myCar1{
+        font-family: Helvetica !important;
+    }
+    div.carousel-styles p{
+        font-size:25px;
+    }
+    div.carousel-styles p,div.carousel-styles h1{
+        opacity:0.7;
+    }
+    #myCar1 .carousel-inner>div.item img{
+        height:760px;
+    }
+    #slider-img-change div.carousel-caption{
+        padding-bottom:400px;
+        color:#00cd00;
+        text-shadow:1.5px 1.5px 1px;
+      /*height:300px;*/
+
+
+    }
+    /*第三块*/
+    #delicious-words{
+        width:100%;
+        background-color:black;
+        margin:20px 0;
+        border-bottom:2px solid #0f0f0f;
+        /*padding-bottom:20px;*/
+
+    }
+    p.same-style{
+        width:85%;
+        margin:0px auto;
+        height:100px;
+        font-size:50px;
+        font-weight:bold;
+        font-family: "微软雅黑";
+        color:#00cd00;
+        /*border:1px solid #ddd;*/
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        /*border-radius: 8px;*/
+        text-align:center;
+        line-height:100px;
+        margin-bottom:20px;
+        transition:all 1s;
+    }
+    p.same-style:hover{
+        border-color:#00cd00;
+        font-size:60px;
+        cursor:pointer;
+        /*border:2px solid #00cd00;*/
+        /*border:2px solid #00cd00;*/
+        opacity:0.7;
+    }
+
+    .delicious-words-img-group{
+        width:85%;
+        margin:0 auto;
+        overflow:hidden;
+        margin-bottom:20px;
+    }
+    .delicious-words-img-group ul{
+        width:100%;
+    }
+    .delicious-words-img-group ul li{
+        float:left;
+        width:32%;
+        border:1px solid #fff;
+        position:relative;
+        box-sizing: border-box;
+
+    }
+    .delicious-words-img-group ul li:nth-child(2),.delicious-words-img-group ul li:nth-child(5){
+        margin:0 2%;
+    }
+    .delicious-words-img-group ul li:nth-child(1),
+    .delicious-words-img-group ul li:nth-child(2),
+    .delicious-words-img-group ul li:nth-child(3){
+        border-bottom:none;
+    }
+    .delicious-words-img-group ul li div.img-meat{
+        width:100%;
+    }
+    .delicious-words-img-group ul li div img{
+        width:100%;
+    }
+    .delicious-words-img-group ul li>p{
+        height:70px;
+        text-align: center;
+        line-height:70px;
+        font-weight:bold;
+        font-size:30px;
+        color:#00cd00;
+        margin-bottom:0;
+    }
+    .delicious-words-img-group ul li div.shadow-box{
+        background:rgba(41,128,185,0.7);
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        opacity:0;
+        transition:all 0.6s linear;
+        overflow:hidden;
+        font-size:2em;
+        color:#fff;
+        font-weight: bold;
+        text-align:center;
+        padding:35px 30px;
+        line-height:170px;
+    }
+    .delicious-words-img-group ul li div.shadow-box:before,.delicious-words-img-group ul li div.shadow-box:after{
+        border:1px solid rgba(255,255,255,0.7);
+        content:"";
+        position:absolute;
+        top:0.5em;
+        bottom:0.5em;
+        left:0.5em;
+        right:0.5em;
+        opacity:0;
+        -webkit-transform:scale(1.5);
+        -ms-transform:scale(1.5);
+        transition:1s;
+
+
+    }
+    .delicious-words-img-group ul li div.shadow-box:before{
+        border-top:none;
+        border-bottom:none;
+        left:1em;
+        right:1em;
+
+    }
+    .delicious-words-img-group ul li div.shadow-box:after{
+        border-left:none;
+        border-right:none;
+        top:1em;
+        bottom:1em;
+
+    }
+    .delicious-words-img-group ul li:hover div.shadow-box{
+        opacity: 1;
+        cursor:pointer;
+    }
+    .delicious-words-img-group ul li div.shadow-box:hover:after,
+    .delicious-words-img-group ul li div.shadow-box:hover:before{
+        opacity:1;
+        transform:scale(1);
+    }
+    /*第四块美食物语*/
+    #delicious-says{
+        width:100%;
+        margin-top:20px;
+        border-bottom:2px solid #0f0f0f;
+        margin-bottom:20px;
+    }
+    #delicious-says div.breakfast-img-write{
+        width:85%;
+        overflow:hidden;
+        margin:0 auto;
+    }
+    aside.breakfast-img-write-left{
+        float:left;
+        width:48%;
+        margin-right:100px;
+        overflow:hidden;
+        height:400px;
+        border-radius:2px;
+
+    }
+    aside.breakfast-img-write-left img{
+        transition:all 0.7s;
+        height:400px;
+        width:100%;
+        border-radius:2px;
+    }
+    aside.breakfast-img-write-left img:hover{
+        transform:scale(1.2);
+    }
+    /*aside.breakfast-img-write-left:hover{*/
+        /*box-shadow:3px 3px 5px #cdaa7e;*/
+
+    /*}*/
+
+
+    div.breakfast-img-write-right{
+        color:#fff;
+        overflow: hidden;
+        height:280px;
+    }
+    div.breakfast-img-write-right h3{
+        margin:0;
+    }
+    div.breakfast-img-write-right p{
+        font-size:16px;
+        opacity:0.7;
+        line-height: 25px;
+    }
+    div.breakfast-img-write-right:hover h3,div.breakfast-img-write-right:hover p{
+        color:#ffb;
+        transition:all 0.5s;
+    }
+    /*日期文字*/
+    div.breakfast-date-write{
+        width:85%;
+        margin:0 auto;
+        margin-top:60px;
+        border-top:2px dashed #fff;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    div.breakfast-date-write li{
+        line-height:25px;
+        color:#fff;
+        font-size:16px;
+        padding-left:10px;
+    }
+    div.breakfast-date-write span{
+        float:right;
+    }
+    div.breakfast-date-write a{
+        text-decoration:none;
+        color:#fff;
+    }
+    div.breakfast-date-write li:hover a,
+    div.breakfast-date-write li:hover span{
+        color:#ffb;
+    }
+/*响应式布局*/
+
+@media screen and (max-width:767px){
+div.breakfast-img-write-right{
+        display:none;
+}
+ aside.breakfast-img-write-left{
+     width:100%;
+     transition:all 1s;
+ }
+}
+    /*第五块美食达人*/
+    #delicious-bodies{
+        width:100%;
+        margin:20px 0;
+        border-bottom:2px solid #0f0f0f;
+        padding-bottom:20px;
+    }
+    div.bodies-group{
+        width:85%;
+        margin:0 auto;
+        overflow:hidden;
+        display:flex;
+    }
+   div.bodies-group dl{
+       /*float:left;*/
+       /*width:13%; */
+       box-sizing:border-box;
+       border:1px solid #fff;
+       border-radius: 5px;
+       /*margin-right:1.5%;*/
+       background-color:#d0e9c6;
+       text-align:center;
+       font-weight:bold;
+       font-size:16px;
+       padding-bottom:2px;
+   }
+    div.bodies-group dl img{
+        width:100%;
+        /*height:125px;*/
+        padding:10px;
+    }
+    /*div.bodies-group dl:last-child{*/
+        /*margin-right:0;*/
+    /*}*/
+    div.bodies-group dl:hover img{
+        transform:rotateY(360deg);
+        transition:transform 1s linear;
+    }
+    div.bodies-group dl:hover{
+        color:#00cd00;
+    }
+
+    div.bodies-group dd{
+        font-size:24px;
+        font-weight:bold;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
